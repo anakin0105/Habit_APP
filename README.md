@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Habit Tracker API
 
 Бэкенд SPA-приложения для трекинга полезных привычек по мотивам книги «Атомные привычки» (James Clear).
@@ -81,3 +82,7 @@ habit_tracker/
 ├── requirements.txt
 └── .env.template
 ```
+=======
+# Habit_APP
+5 курсовая
+>>>>>>> origin/main
