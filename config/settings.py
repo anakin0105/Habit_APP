@@ -15,22 +15,23 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
 
 INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.sessions",
-    "django.contrib.messages",
-    "django.contrib.staticfiles",
-    # Third-party
-    "rest_framework",
-    "rest_framework_simplejwt",
-    "django_filters",
-    "corsheaders",
-    "drf_spectacular",
-    "django_celery_beat",
-    # Local
-    "users",
-    "habits",
+    # стандартные Django
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+
+    # сторонние
+    'corsheaders',
+    'django_filters',
+    'drf_spectacular',
+    'django_celery_beat',
+
+    # твои приложения
+    'habits',
+    'users',
 ]
 
 MIDDLEWARE = [
